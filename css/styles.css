@@ -525,7 +525,7 @@ font-weight: 500;
             height: 40px;
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background-color: transparent;
-            font-size: 16px;
+            font-size: 12px;
                 line-height: 2;
                 letter-spacing: 0.04em;
                 color: #fff;
@@ -640,12 +640,9 @@ border: 1px solid #31d0aa;
     
 }
 
-.modal-close-button:hover{
+.modal-close-button:hover,
+.modal-close-button:focus{
 background-color:  #404bbf;
-
-}
-
-.icon-close:hover{
 fill: #fff;
 }
 
@@ -719,6 +716,7 @@ fill: #fff;
 }
 
 .modal-textarea:focus{
+outline: transparent;
 border: 1px solid #4d5ae5;
 }
 
