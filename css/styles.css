@@ -642,6 +642,10 @@ border: 1px solid #31d0aa;
 
 .modal-close-button:hover{
 background-color:  #404bbf;
+
+}
+
+.icon-close:hover{
 fill: #fff;
 }
 
@@ -714,6 +718,10 @@ fill: #fff;
     color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-textarea:focus{
+border: 1px solid #4d5ae5;
+}
+
 .modal-button{
     display: flex;
     align-items: center;
@@ -758,10 +766,15 @@ background-color: #404bbf;
         letter-spacing: 0.04em;
         color: #8e8f99;
         line-height: 1.33;
-  a{      
+}
+
+.modal-link{  
+       
+        line-height: 1.33;
             text-decoration: underline;
             text-decoration-skip-ink: none;
-            color: #4d5ae5;}
+            color: #4d5ae5;
+            margin-left: 4px;
 }
 
 .check-mark{
@@ -784,7 +797,7 @@ fill: #f4f4fd;
 
 .modal-check:focus + .modal-check-label .check-mark{
 border-color:  #404bbf;
-
+}
 
 
 
