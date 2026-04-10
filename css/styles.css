@@ -477,7 +477,6 @@ font-weight: 500;
 .footer-container{
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
 }
 
 .footer-social{
@@ -508,7 +507,6 @@ font-weight: 500;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    
 }
 
 .footer-text-sub{
@@ -655,6 +653,7 @@ fill: #fff;
 }
 
 .icon-close{
+    fill: #2e2f42
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -754,6 +753,7 @@ border: 1px solid #4d5ae5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
